@@ -17,6 +17,8 @@ and allows guest OSes to be run in isolation.
 What is Hypervisor?
 A hypervisor is software that lets you run multiple virtual machines (VMs) on a single physical computer.  Each VM acts like a separate computer,
 with its own operating system and applications, while sharing the physical hardware—like CPU, memory, and storage—managed by the hypervisor. 
+A hypervisor can run multiple VMs at once, manage them, and support the creation of new ones. The physical hardware, when used as a hypervisor, is called the host,
+while the many VMs that use its resources are guests.
 
 Think of it as a virtual machine manager that divides the physical machine’s resources and assigns them to each VM, ensuring they run independently and securely.  
 This allows organizations to use hardware more efficiently, reduce costs, and run different operating systems on one server. 
