@@ -1,0 +1,24 @@
+What is meant by Virtualisation?
+
+ - Virtualization is the process of creating virtual versions of physical resources, such 
+as servers, storage devices, networks, or operating systems, by using software to abstract 
+and allocate these resources, enabling multiple virtual environments to run simultaneously
+on a single physical system.
+
+
+In hardware virtualization, the host machine is the machine that is used by the virtualization and
+the guest machine is the virtual machine. The words host and guest are used to distinguish the software 
+that runs on the physical machine from the software that runs on the virtual machine. The software or firmware
+that creates a virtual machine on the host hardware is called a hypervisor or virtual machine monitor.[2] Hardware
+virtualization is not the same as hardware emulation. Hardware-assisted virtualization facilitates building a virtual machine monitor 
+and allows guest OSes to be run in isolation.
+
+
+What is Hypervisor?
+A hypervisor is software that lets you run multiple virtual machines (VMs) on a single physical computer.  Each VM acts like a separate computer,
+with its own operating system and applications, while sharing the physical hardware—like CPU, memory, and storage—managed by the hypervisor. 
+
+Think of it as a virtual machine manager that divides the physical machine’s resources and assigns them to each VM, ensuring they run independently and securely.  
+This allows organizations to use hardware more efficiently, reduce costs, and run different operating systems on one server. 
+Type 1 (Bare-metal): Runs directly on the hardware (e.g., VMware ESXi, Microsoft Hyper-V). Best for enterprise environments due to high performance and security. 
+Type 2 (Hosted): Runs on top of an existing operating system (e.g., VirtualBox, VMware Workstation). Easier to set up, ideal for testing or personal use. 
