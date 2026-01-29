@@ -1,4 +1,4 @@
-What is meant by Virtualisation?
+** What is meant by Virtualisation?
 
  - Virtualization is the process of creating virtual versions of physical resources, such 
 as servers, storage devices, networks, or operating systems, by using software to abstract 
@@ -20,5 +20,12 @@ with its own operating system and applications, while sharing the physical hardw
 
 Think of it as a virtual machine manager that divides the physical machine’s resources and assigns them to each VM, ensuring they run independently and securely.  
 This allows organizations to use hardware more efficiently, reduce costs, and run different operating systems on one server. 
-Type 1 (Bare-metal): Runs directly on the hardware (e.g., VMware ESXi, Microsoft Hyper-V). Best for enterprise environments due to high performance and security. 
+Type 1 (Bare-metal): Runs directly on the hardware (e.g., VMware ESXi, Microsoft Hyper-V). Best for enterprise environments due to high performance and security.
+Xen (pronounced /ˈzɛn/) is a free and open-source type-1 hypervisor, providing services that allow multiple computer operating systems to execute on the same computer h
+ardware concurrently. I
 Type 2 (Hosted): Runs on top of an existing operating system (e.g., VirtualBox, VMware Workstation). Easier to set up, ideal for testing or personal use. 
+
+
+What is KVM?
+Kernel-based Virtual Machine (KVM) is an open source virtualization technology for Linux® operating systems. With KVM, Linux can function as a hypervisor that runs
+multiple, isolated virtual machines (VMs
